@@ -1,0 +1,52 @@
+[
+  {
+    "step": "rename_columns",
+    "detail": "20 columns normalised to snake_case",
+    "rows_affected": 0
+  },
+  {
+    "step": "parse_dates",
+    "detail": "order_date parsed with explicit format %d/%m/%Y",
+    "rows_affected": 2747
+  },
+  {
+    "step": "missing_check",
+    "detail": "no missing dates or sales values found; nothing imputed",
+    "rows_affected": 0
+  },
+  {
+    "step": "duplicates",
+    "detail": "no exact duplicate rows",
+    "rows_affected": 0
+  },
+  {
+    "step": "key_duplicates",
+    "detail": "0 repeated (order_number, order_line_number) keys; kept for review",
+    "rows_affected": 0
+  },
+  {
+    "step": "flag_sales_mismatch",
+    "detail": "sales != quantity*price (>0.50)",
+    "rows_affected": 0
+  },
+  {
+    "step": "flag_price_vs_msrp",
+    "detail": "price >1.5x or <0.5x MSRP flagged, not altered",
+    "rows_affected": 181
+  },
+  {
+    "step": "flag_sales_outliers",
+    "detail": "line sales above Q3+1.5*IQR flagged; genuine large lines are kept",
+    "rows_affected": 79
+  },
+  {
+    "step": "exclude_pii",
+    "detail": "contact columns excluded from processed data: ['phone', 'address_line1', 'contact_last_name', 'contact_first_name']",
+    "rows_affected": 0
+  },
+  {
+    "step": "summary",
+    "detail": "2747 raw rows -> 2747 clean rows",
+    "rows_affected": 0
+  }
+]
