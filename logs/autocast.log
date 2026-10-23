@@ -1,0 +1,54 @@
+2026-10-22 21:56:48,911 INFO src.data: clean: rename_columns | 20 columns normalised to snake_case | 0
+2026-10-22 21:56:48,940 INFO src.data: clean: parse_dates | order_date parsed with explicit format %d/%m/%Y | 2747
+2026-10-22 21:56:48,940 INFO src.data: clean: missing_check | no missing dates or sales values found; nothing imputed | 0
+2026-10-22 21:56:48,948 INFO src.data: clean: duplicates | no exact duplicate rows | 0
+2026-10-22 21:56:48,949 INFO src.data: clean: key_duplicates | 0 repeated (order_number, order_line_number) keys; kept for review | 0
+2026-10-22 21:56:48,953 INFO src.data: clean: flag_sales_mismatch | sales != quantity*price (>0.50) | 0
+2026-10-22 21:56:48,954 INFO src.data: clean: flag_price_vs_msrp | price >1.5x or <0.5x MSRP flagged, not altered | 181
+2026-10-22 21:56:48,956 INFO src.data: clean: flag_sales_outliers | line sales above Q3+1.5*IQR flagged; genuine large lines are kept | 79
+2026-10-22 21:56:48,958 INFO src.data: clean: exclude_pii | contact columns excluded from processed data: ['phone', 'address_line1', 'contact_last_name', 'contact_first_name'] | 0
+2026-10-22 21:56:48,962 INFO src.data: clean: summary | 2747 raw rows -> 2747 clean rows | 0
+2026-10-22 22:15:30,787 INFO src.data: clean: rename_columns | 20 columns normalised to snake_case | 0
+2026-10-22 22:15:30,820 INFO src.data: clean: parse_dates | order_date parsed with explicit format %d/%m/%Y | 2747
+2026-10-22 22:15:30,822 INFO src.data: clean: missing_check | no missing dates or sales values found; nothing imputed | 0
+2026-10-22 22:15:30,831 INFO src.data: clean: duplicates | no exact duplicate rows | 0
+2026-10-22 22:15:30,832 INFO src.data: clean: key_duplicates | 0 repeated (order_number, order_line_number) keys; kept for review | 0
+2026-10-22 22:15:30,842 INFO src.data: clean: flag_sales_mismatch | sales != quantity*price (>0.50) | 0
+2026-10-22 22:15:30,842 INFO src.data: clean: flag_price_vs_msrp | price >1.5x or <0.5x MSRP flagged, not altered | 181
+2026-10-22 22:15:30,845 INFO src.data: clean: flag_sales_outliers | line sales above Q3+1.5*IQR flagged; genuine large lines are kept | 79
+2026-10-22 22:15:30,848 INFO src.data: clean: exclude_pii | contact columns excluded from processed data: ['phone', 'address_line1', 'contact_last_name', 'contact_first_name'] | 0
+2026-10-22 22:15:30,854 INFO src.data: clean: summary | 2747 raw rows -> 2747 clean rows | 0
+2026-10-22 22:23:48,811 INFO src.data: clean: rename_columns | 20 columns normalised to snake_case | 0
+2026-10-22 22:23:48,833 INFO src.data: clean: parse_dates | order_date parsed with explicit format %d/%m/%Y | 2747
+2026-10-22 22:23:48,834 INFO src.data: clean: missing_check | no missing dates or sales values found; nothing imputed | 0
+2026-10-22 22:23:48,839 INFO src.data: clean: duplicates | no exact duplicate rows | 0
+2026-10-22 22:23:48,839 INFO src.data: clean: key_duplicates | 0 repeated (order_number, order_line_number) keys; kept for review | 0
+2026-10-22 22:23:48,843 INFO src.data: clean: flag_sales_mismatch | sales != quantity*price (>0.50) | 0
+2026-10-22 22:23:48,843 INFO src.data: clean: flag_price_vs_msrp | price >1.5x or <0.5x MSRP flagged, not altered | 181
+2026-10-22 22:23:48,844 INFO src.data: clean: flag_sales_outliers | line sales above Q3+1.5*IQR flagged; genuine large lines are kept | 79
+2026-10-22 22:23:48,845 INFO src.data: clean: exclude_pii | contact columns excluded from processed data: ['phone', 'address_line1', 'contact_last_name', 'contact_first_name'] | 0
+2026-10-22 22:23:48,847 INFO src.data: clean: summary | 2747 raw rows -> 2747 clean rows | 0
+2026-10-22 22:29:05,840 INFO src.data: clean: rename_columns | 20 columns normalised to snake_case | 0
+2026-10-22 22:29:05,863 INFO src.data: clean: parse_dates | order_date parsed with explicit format %d/%m/%Y | 2747
+2026-10-22 22:29:05,864 INFO src.data: clean: missing_check | no missing dates or sales values found; nothing imputed | 0
+2026-10-22 22:29:05,870 INFO src.data: clean: duplicates | no exact duplicate rows | 0
+2026-10-22 22:29:05,871 INFO src.data: clean: key_duplicates | 0 repeated (order_number, order_line_number) keys; kept for review | 0
+2026-10-22 22:29:05,875 INFO src.data: clean: flag_sales_mismatch | sales != quantity*price (>0.50) | 0
+2026-10-22 22:29:05,876 INFO src.data: clean: flag_price_vs_msrp | price >1.5x or <0.5x MSRP flagged, not altered | 181
+2026-10-22 22:29:05,877 INFO src.data: clean: flag_sales_outliers | line sales above Q3+1.5*IQR flagged; genuine large lines are kept | 79
+2026-10-22 22:29:05,878 INFO src.data: clean: exclude_pii | contact columns excluded from processed data: ['phone', 'address_line1', 'contact_last_name', 'contact_first_name'] | 0
+2026-10-22 22:29:05,880 INFO src.data: clean: summary | 2747 raw rows -> 2747 clean rows | 0
+2026-10-22 22:33:28,929 INFO src.data: clean: rename_columns | 20 columns normalised to snake_case | 0
+2026-10-22 22:33:28,980 INFO src.data: clean: parse_dates | order_date parsed with explicit format %d/%m/%Y | 2747
+2026-10-22 22:33:28,981 INFO src.data: clean: missing_check | no missing dates or sales values found; nothing imputed | 0
+2026-10-22 22:33:28,988 INFO src.data: clean: duplicates | no exact duplicate rows | 0
+2026-10-22 22:33:28,989 INFO src.data: clean: key_duplicates | 0 repeated (order_number, order_line_number) keys; kept for review | 0
+2026-10-22 22:33:28,995 INFO src.data: clean: flag_sales_mismatch | sales != quantity*price (>0.50) | 0
+2026-10-22 22:33:28,996 INFO src.data: clean: flag_price_vs_msrp | price >1.5x or <0.5x MSRP flagged, not altered | 181
+2026-10-22 22:33:28,997 INFO src.data: clean: flag_sales_outliers | line sales above Q3+1.5*IQR flagged; genuine large lines are kept | 79
+2026-10-22 22:33:28,998 INFO src.data: clean: exclude_pii | contact columns excluded from processed data: ['phone', 'address_line1', 'contact_last_name', 'contact_first_name'] | 0
+2026-10-22 22:33:29,002 INFO src.data: clean: summary | 2747 raw rows -> 2747 clean rows | 0
+2026-10-22 22:33:36,911 INFO httpx: HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+2026-10-22 22:33:37,531 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-22 22:33:38,878 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-22 22:33:49,416 INFO httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
