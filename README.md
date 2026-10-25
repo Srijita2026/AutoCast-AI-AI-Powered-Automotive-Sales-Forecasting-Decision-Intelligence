@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/732a5bef-32e6-48ab-b824-32b4d252c550
 # 🚗 AutoCast AI
 
 ## Statistical Time-Series Forecasting & AI-Powered Automotive Sales Decision Intelligence
@@ -87,7 +89,7 @@ It includes:
 - Seasonal-strength assessment.
 - Residual and model diagnostic visualizations.
 - Checks that guide whether seasonal model candidates should be considered.
-
+![ts analysis](Uploading ts analysis.mov… )
 Seasonal modelling is handled cautiously because the dataset contains only about 2.4 years of observations. A seasonal period of 12 is considered only when the minimum-cycle and seasonal-strength criteria are met. Seasonal evidence is treated as tentative rather than conclusive.
 
 ### 🧮 5. Statistical Forecasting Models
