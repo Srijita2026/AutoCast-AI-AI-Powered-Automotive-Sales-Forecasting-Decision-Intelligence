@@ -89,7 +89,7 @@ It includes:
 - Seasonal-strength assessment.
 - Residual and model diagnostic visualizations.
 - Checks that guide whether seasonal model candidates should be considered.
-![ts analysis](https://github.com/user-attachments/assets/c4c03741-34ab-4ff9-8ec3-c530e0a7a96b)
+![ts analysis](https://github.com/user-attachments/assets/a7c9eafc-2cfa-4ec3-a30f-cc223b2ff308)
 Seasonal modelling is handled cautiously because the dataset contains only about 2.4 years of observations. A seasonal period of 12 is considered only when the minimum-cycle and seasonal-strength criteria are met. Seasonal evidence is treated as tentative rather than conclusive.
 
 ### 🧮 5. Statistical Forecasting Models
