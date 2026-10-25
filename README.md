@@ -103,6 +103,9 @@ AutoCast AI compares four classical statistical model families:
 | **ARIMAX** | ARIMA with exogenous explanatory variables. |
 | **SARIMAX** | Seasonal ARIMA with exogenous variables. |
 
+
+![Model Lab Demo](https://github.com/user-attachments/assets/0a29887f-62c1-439c-a1a3-50949a29214c)
+
 The forecasting target is configurable:
 
 - **Revenue:** sum of `SALES` by month (default)
