@@ -12,6 +12,8 @@ Automotive sales data can contain changing sales patterns, irregular order activ
 
 AutoCast AI provides a structured workflow for exploring automotive sales and forecasting future performance. Users can inspect the dataset, review sales trends, diagnose the monthly time series, compare statistical models, generate forecasts with prediction intervals, and export reports.
 
+![AutoCast - AI Demo](https://github.com/user-attachments/assets/f79a57bf-a6c4-45d3-94f2-201cd4a5b2a1)
+
 The application emphasizes **statistical validity and transparent model selection**. It uses chronological validation rather than random train-test splitting, keeps a final hold-out period untouched during model selection, compares candidate models against simple benchmarks, and reports forecast errors using clearly defined metrics.
 
 ### 🎯 Project Objectives
