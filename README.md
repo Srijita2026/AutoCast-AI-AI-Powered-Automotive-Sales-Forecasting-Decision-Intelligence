@@ -1,5 +1,5 @@
 
-https://github.com/user-attachments/assets/732a5bef-32e6-48ab-b824-32b4d252c550
+
 # 🚗 AutoCast AI
 
 ## Statistical Time-Series Forecasting & AI-Powered Automotive Sales Decision Intelligence
