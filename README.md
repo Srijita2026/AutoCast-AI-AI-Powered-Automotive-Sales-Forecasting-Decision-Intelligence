@@ -144,8 +144,6 @@ The Model Lab reports common forecasting evaluation measures:
 | **95% interval coverage** | Share of observed values contained within the 95% prediction intervals. |
 | **AIC / BIC** | Information criteria used as model-fit diagnostics. |
 
-![Forcast Demo](https://github.com/user-attachments/assets/1070ae06-1451-4e66-8eef-ce47672ee42b)
-
 The dashboard distinguishes validation performance from final hold-out performance. A strong in-sample fit is not treated as proof of future forecast accuracy.
 
 ### 🔮 8. Forecast Studio & Prediction Intervals
@@ -159,6 +157,8 @@ Features include:
 - 95% prediction intervals.
 - Forecast summaries in the selected target units.
 - Clear separation between historical observations and future estimates.
+- 
+![Forcast Demo](https://github.com/user-attachments/assets/1070ae06-1451-4e66-8eef-ce47672ee42b)
 
 Prediction intervals communicate uncertainty and should be interpreted alongside the short historical span and validation results.
 
