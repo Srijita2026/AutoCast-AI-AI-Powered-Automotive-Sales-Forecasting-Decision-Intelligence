@@ -178,6 +178,8 @@ The app checks model availability at runtime. Model candidates configured by the
 - `openai/gpt-oss-20b`
 - `llama-3.1-8b-instant`
 
+![AI Demo](https://github.com/user-attachments/assets/8ca4aaa5-a496-4258-abb5-50b862c74a0b)
+
 Model availability can change, so the configured model should be checked against the models enabled for the user's Groq account. If a selected model is unavailable, the application can report the issue and fall back to deterministic demo responses.
 
 ### 📄 10. Reports & Downloads
