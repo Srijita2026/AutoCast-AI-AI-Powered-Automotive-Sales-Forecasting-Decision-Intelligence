@@ -57,7 +57,7 @@ The workflow includes:
 - Recording cleaning operations in an audit log.
 - Keeping the raw dataset unchanged and writing cleaned data separately.
 - Removing direct contact fields such as phone numbers, addresses, and contact names from processed data.
-![data-quality](https://github.com/user-attachments/assets/2bca52b0-294a-4f6a-84a1-eaa24e279d17)
+
 The data-quality dashboard helps users understand the condition of the dataset before drawing conclusions from it.
 
 ### 📊 3. Exploratory Data Analysis (EDA)
@@ -73,7 +73,7 @@ The analytics dashboard summarizes sales activity using business-relevant measur
 - Revenue by product line
 - Monthly revenue trends
 - Data-supported observations about sales patterns
-![Sales Analytics Demo](https://github.com/user-attachments/assets/446f2a74-38ee-48d7-ae22-52606cfd75cb)
+  
 Revenue, units, and order counts are treated as distinct measures rather than being mixed together.
 
 ### 🔬 4. Time-Series Diagnostics
@@ -87,8 +87,7 @@ It includes:
 - Seasonal-strength assessment.
 - Residual and model diagnostic visualizations.
 - Checks that guide whether seasonal model candidates should be considered.
-- 
-![ts analysis](https://github.com/user-attachments/assets/a7c9eafc-2cfa-4ec3-a30f-cc223b2ff308)
+
 
 Seasonal modelling is handled cautiously because the dataset contains only about 2.4 years of observations. A seasonal period of 12 is considered only when the minimum-cycle and seasonal-strength criteria are met. Seasonal evidence is treated as tentative rather than conclusive.
 
